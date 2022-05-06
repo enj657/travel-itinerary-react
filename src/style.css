@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
+nav {
+    height: 55px;
+    position: relative;
+    margin: 0 auto;
+    /* justify-content: center; */
+    background: #F55A5A;
+    margin-bottom: 32px;
+}
+
+.nav-centered {
+    /* float: none; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.globe-icon {
+    font-size: 24px;
+    padding: 7px;
+    color: #FFFFFF;
+    /* display: inline-block; */
+}
+
+.nav-title {
+    height: 16px;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    color: #FFFFFF;
+    /* display: inline-block; */
+}
+
+section {
+    padding: 20px;
+}
+
+.card {
+    font-size: 12px;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex: 200px; */
+    padding: 18px 40px 18px 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img-container {
+    min-width: 300px;
+    height: 168px;
+    display: flex;
+    margin-right: 19px;
+    justify-content: center;
+}
+
+.card-img {
+    height: 100%;
+    border-radius: 5px;
+    /* display: flex; */
+    /* justify-self: center; */
+    
+}
+
+.card-location-info {
+    align-items: center;
+    display: flex;        
+    /* flex-direction: row; */
+    margin-bottom: 13px;
+}
+
+.location-pin {
+    font-size: 9px;
+    color: #F55A5A;
+    margin-right: 4px;
+}
+
+.location {
+    font-weight: 400;
+    font-size: 10.24px;
+    /* line-height: 12px; */
+    letter-spacing: 0.17em;
+    color: #2B283A;
+    margin-right: 12px;
+}
+
+.maps-link {
+    font-weight: 400;
+    font-size: 10.24px;
+    /* line-height: 12px; */
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.maps-link:hover {
+    font-size: 12px;
+    color: #918E9B;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+}
+
+.card-date {
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+    display: block;
+    margin-top: 20px;
+
+}
+
+.card-description {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A;
+
+}
+
+.line {
+    width: 90%;
+    height: 0px;
+    left: 40px;
+    top: 286px;
+    border: 1px solid #F5F5F5;
+}
