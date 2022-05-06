@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/travel-itinerary-react/static/css/main.fd935a7b.css",
+    "main.js": "/travel-itinerary-react/static/js/main.4c1ff602.js",
+    "index.html": "/travel-itinerary-react/index.html",
+    "main.fd935a7b.css.map": "/travel-itinerary-react/static/css/main.fd935a7b.css.map",
+    "main.4c1ff602.js.map": "/travel-itinerary-react/static/js/main.4c1ff602.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd935a7b.css",
+    "static/js/main.4c1ff602.js"
+  ]
+}
