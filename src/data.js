@@ -6,7 +6,7 @@ export default [
         googleMapsUrl: "https://goo.gl/maps/BzgSLpNLQDgpnwbXA",
         startDate: "18 June, 2012",
         endDate: "29 June, 2012",
-        description: "Machu Picchu is an Incan citadel set high in the Andes Mountains in Peru, above the Urubamba River valley. Built in the 15th century and later abandoned, it’s renowned for its sophisticated dry-stone walls that fuse huge blocks without the use of mortar, intriguing buildings that play on astronomical alignments and panoramic views. Its exact former use remains a mystery.",
+        description: "The Incan citadel of Machu Picchu is located atop the Urubamba River valley in Peru in the Andes Mountains. Originally built in the 15th century and abandoned later, it is famous for its sophisticated dry-stone walls that fuse huge blocks with no mortar, captivating buildings that play with astronomical alignments and panoramic views. It is unclear what it used to be used for.",
         img: "peru.png",
     },
     {   
@@ -16,7 +16,7 @@ export default [
         googleMapsUrl: "https://goo.gl/maps/qUXL8wGUVTZArwrn7",
         startDate: "30 May, 2014",
         endDate: "27 June, 2014",
-        description: "Merzouga is a small Moroccan town in the Sahara Desert, near the Algerian border. It’s known as a gateway to Erg Chebbi, a huge expanse of sand dunes north of town. West of Merzouga, Dayet Srji is a seasonal salt lake that’s often dry in summer. When full, it attracts a wide range of migratory and desert birds, including desert warblers, Egyptian nightjars and, occasionally, flamingos.",
+        description: "It's a small Moroccan town near the Algerian border in the Sahara Desert. As well as serving as a gateway to Erg Chebbi, a huge sand dunes north of Merzouga, Dayet Srji is a seasonal salt lake that can often be dry in the summer. When it's full, it attracts a variety of migratory and desert birds, such as desert warblers, Egyptian nightjars, and sometimes flamingos.",
         img: "morocco.png",
     },
     {   
@@ -26,7 +26,7 @@ export default [
         googleMapsUrl: "https://goo.gl/maps/6a8W7vpNsCXVgX6j8",
         startDate: "3 March, 2017",
         endDate: "6 March, 2017",
-        description: "Grand Canyon National Park, in Arizona, is home to much of the immense Grand Canyon, with its layered bands of red rock revealing millions of years of geological history. Viewpoints include Mather Point, Yavapai Observation Station and architect Mary Colter’s Lookout Studio and her Desert View Watchtower. Lipan Point, with wide views of the canyon and Colorado River, is a popular, especially at sunrise and sunset.",
+        description: "Located in Arizona, Grand Canyon National Park contains much of the massive Grand Canyon, which has millions of years of geological history etched into its layers of red rock. Among the view points are Mather Point, Yavapai Observation Station and Mary Colter's Lookout Studio and Desert View Watchtower. It is especially popular at sunrise and sunset to see Lipan Point, which has views of the Colorado River and canyon.",
         img: "grandCanyon.png",
     },
 ]
