@@ -4,7 +4,7 @@ export default function Card(props) {
     return (
         <div className="card">
             <div className="card-img-container">
-                <img className="card-img" src={`../images/${props.item.img}`} alt="Image goes here"/>
+                <img className="card-img" src={require(`../images/${props.item.img}`)} alt="here"/>
             </div>
             <div className="card-info">
                 <div className="card-location-info">
