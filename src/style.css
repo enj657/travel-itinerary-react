@@ -6,15 +6,17 @@ body {
     margin: 0;
     font-family: 'Inter', sans-serif;
     font-style: normal;
+    min-width: 0px;
 }
 
 nav {
     height: 55px;
     position: relative;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     /* justify-content: center; */
     background: #F55A5A;
     margin-bottom: 32px;
+    display: flex;
 }
 
 .nav-centered {
@@ -23,10 +25,8 @@ nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* text-align: center; */
-    /* margin: 0 auto; */
     display: flex;
-    justify-content: center;
+    justify-content: stretch;
     align-items: center;
 }
 
@@ -54,17 +54,18 @@ section {
 .card {
     font-size: 12px;
     display: flex;
-    /* flex-direction: row; */
-    /* flex: 200px; */
     padding: 18px 40px 18px 40px;
     align-items: center;
     justify-content: center;
+    /* min-width: 400px; */
+    /* flex-wrap: nowrap; */
 }
 
 .card-img-container {
     min-width: 300px;
     height: 168px;
     display: flex;
+    flex: 1;
     margin-right: 19px;
     justify-content: center;
 }
@@ -72,15 +73,18 @@ section {
 .card-img {
     height: 100%;
     border-radius: 5px;
-    /* display: flex; */
-    /* justify-self: center; */
-    
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 400px;
 }
 
 .card-location-info {
     align-items: center;
-    display: flex;        
-    /* flex-direction: row; */
+    display: flex;
     margin-bottom: 13px;
 }
 
@@ -112,11 +116,19 @@ section {
     color: #918E9B;
 }
 
+.card-body {
+    /* min-width: 500px; */
+    display: flex;
+    flex-direction: column;
+
+}
+
 .card-title {
     font-weight: 700;
     font-size: 25px;
     line-height: 30px;
     color: #2B283A;
+    flex: 1 1 auto;
 }
 
 .card-date {
@@ -124,9 +136,8 @@ section {
     font-size: 10.24px;
     line-height: 12px;
     color: #2B283A;
-    display: block;
     margin-top: 20px;
-
+    flex: 1 1 auto;
 }
 
 .card-description {
@@ -134,7 +145,8 @@ section {
     font-size: 10.24px;
     line-height: 150%;
     color: #2B283A;
-
+    flex: 3 1 auto;
+    min-width: 0;
 }
 
 .line {
@@ -144,3 +156,114 @@ section {
     top: 286px;
     border: 1px solid #F5F5F5;
 }
+
+@media (max-width: 800px) {
+    
+    .card {
+        flex-direction: column;
+        font-size: 12px;
+        display: flex;
+        /* padding: 18px 40px 18px 40px; */
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card-img-container {
+        /* min-width: 300px; */
+        height: 250px;
+        display: flex;
+        flex: 0 0 auto;
+        margin: 0 0 19px 0;
+        justify-content: center;
+    }
+
+    .card-img {
+        height: 100%;
+        border-radius: 5px;
+        flex: 0;
+    }
+
+    .card-body {
+        /* min-width: 500px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-info {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-description {
+        font-weight: 400;
+        font-size: 10.24px;
+        line-height: 150%;
+        color: #2B283A;
+        flex: 0 2 auto;
+        width: 90%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    html, body {
+        overflow-x: hidden;
+    }
+    
+    .card {
+        flex-direction: column;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        
+    }
+
+    .card-img-container {
+        /* min-width: 300px; */
+        /* height: 150px; */
+        display: flex;
+        flex: 0 1 auto;
+        margin: 0 0 19px 0;
+        justify-content: center;
+    }
+
+    .card-img {
+        height: 100%;
+        border-radius: 5px;
+        flex: 0 1 auto;
+    }
+
+    .card-body {
+        /* min-width: 500px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-info {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-description {
+        font-weight: 400;
+        font-size: 10.24px;
+        line-height: 150%;
+        color: #2B283A;
+        flex: 0 2 auto;
+        width: 80%;
+        text-align: center;
+    }
+  }
